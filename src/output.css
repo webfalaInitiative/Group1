@@ -548,17 +548,6 @@ video {
 }
 
 @media only screen and (min-width: 769px)  and (max-width:980px) {
-  nav{
-    margin-top:1rem;
-    /* margin-left:0.7rem;
-        margin-right:0.7rem; */
-  }
-
-  .main-container{
-    margin-right:1.5rem;
-    margin-left:1.5rem;
-    /* margin-top: */
-  }
 }
 
 @media only screen and (max-width:768px){
@@ -575,26 +564,8 @@ video {
     margin-top:2.5rem;
   }
 
-  .section1{
-    /* gap{
-            gap:3rem;
-        } */
-  }
-
   h1{
     font-size:1.5rem
-  }
-
-  ul{
-    background-color: #fbbc04;
-  }
-
-  .logo{
-    font-size:28px;
-  }
-
-  .menu{
-    font-size:28px;
   }
 }
 

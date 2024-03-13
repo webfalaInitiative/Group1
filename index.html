@@ -9,11 +9,11 @@
 </head>
 <body >
     <!-- Beginning of Navigation bar -->
-<div class="main-container md:mt-[2.5rem] mt-[1.5rem] lg:mr-[5rem] mr-[2rem]  lg:ml-[5rem] ml-[2rem]">
-    <nav class="bg-white p-3 shadow md:flex md:justify-between md:items-center">
+<div class=" md:mt-[2.5rem] mt-[1.5rem] md:mr-[5rem] mr-[1.5rem]  md:ml-[5rem] ml-[1.5rem]">
+    <nav class=" bg-white p-3 shadow md:flex md:justify-between md:items-center">
         <div class="flex justify-between items-center">
             <div class="w-[8rem]">
-                <img src="images/Frame_135.svg" alt="" class="w-[100%] h-[100%] ">
+                <img src="images/Frame_135.svg" alt="" class="w-[100%] h-[100%]">
             </div>
             <div class="w-[2rem] cursor-pointer mx-2 md:hidden block ">
                 
@@ -24,32 +24,42 @@
             </div>
         </div>
         
-        <ul class="mt-[2rem] md:flex md:items-center text-black z-[5] md:z-auto md:static absolute w-full left-0 
-        md:w-auto py-0  px-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all-ease-in duration-500  md:bg-white bg-white" >
-            <li class="text-[1rem]  font-bold mx-4 my-6 md:my-0"><a href="">Home</a></li>
+        <ul class="bg-white  md:flex md:items-center text-black  md:z-auto md:static absolute w-[100%] left-0 
+        md:w-auto py-0   md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all-ease-in duration-500" >
+            <li class=" text-[1rem]  font-bold mx-4 my-6 md:my-0"><a href="">Home</a></li>
             <li class="mx-4 my-6 md:my-0"><a href="">About Us</a></li>
             <li class="mx-4 my-6 md:my-0"><a href="">Resources</a></li>
             <li class="mx-4 my-6 md:my-0"><a href="">Contact Us</a></li>
-            <li class="mx-4 my-6 md:my-0 bg-[#FBBC04] text-white rounded-[0.2rem] px-[1rem] py-[.4rem] hover:bg-cyan-500 rounded"><a href="community.html">Join Community</a></li>
+            <li class="ml-4 my-6 md:my-0 bg-[#FBBC04] text-white rounded-[0.2rem] px-[1rem] py-[.4rem] "><a href="community.html">Join Community</a></li>
         </ul>
         
     </nav>
     <!-- End of Navigation bar -->
-    <section class="section1 flex   md:gap-[5.3rem]   md:mt-[1.5rem] mt-[2.5rem]">
-        <div class="w-[30rem] h-[15rem] md:w-[35.5rem] md:h-[20.6rem] md:mt-[6.6rem]  ">
-            <h1 class="font-bold md:text-[2.6rem] text-[1rem]  md:leading-[4rem] leading-[1.5rem]">Empowering Survivors <br>And Reviving Hope</h1>
-            <p class="hidden md:block mt-[2.2rem] text-justify">We create safe space for sexual and gender based violence survivors. Join our community as we journey
-                 towards healing and reclaiming strength</p>
-                 <button class="bg-[#FBBC04] text-white rounded-[0.2rem] mt-[2.2rem] md:w-[9.7rem] w-[6rem] md:h-[2.7rem] h-[2rem]"><a href="login.html">Get started</a> </button>
+    <section class="section1 ">
+        <div class="flex   md:gap-[5.3rem] gap-[1rem]  md:mt-[1.5rem] mt-[2.5rem]">
+            <div class="w-[30rem] h-[7rem] md:w-[35.5rem] md:h-[20.6rem] md:mt-[6.6rem]  ">
+                <h1 class="font-bold md:text-[2.6rem] text-[1rem]  md:leading-[4rem] leading-[1.5rem]">Empowering Survivors <br>And Reviving Hope</h1>
+                <p class="hidden md:mt-[2.2rem] text-justify">We create safe space for sexual and gender based violence survivors. Join our community as we journey
+                     towards healing and reclaiming strength</p>
+                     <button class="bg-[#FBBC04] hidden text-white rounded-[0.2rem] md:mt-[2.2rem] md:w-[9.7rem] w-[6rem] md:h-[2.7rem] h-[2rem]"><a href="login.html">Get started</a> </button>
+            </div>
+            <div class="md:w-[35.3rem] w-[15.5rem]  md:h-[20.4rem] h-[4.5rem]">
+                <img src="images/firstImage.png" alt="" class="rounded-[.5rem]">
+            </div>
         </div>
-        <div class="md:w-[35.3rem] w-[15.5rem]  md:h-[20.4rem] h-[9.5rem]">
-            <img src="images/firstImage.png" alt="" class="rounded-[.5rem]">
+        
+        <!-- mobile p tag -->
+        <div class="flex flex-col  md:hidden"> 
+            <p class=" mt-[.5rem] text-justify">We create safe space for sexual and gender based violence survivors. Join our community as we journey
+                towards healing and reclaiming strength</p>
+                <button class="bg-[#FBBC04] text-white rounded-[0.2rem] mt-[2.2rem] md:w-[9.7rem] w-[6rem] md:h-[2.7rem] h-[2rem]"><a href="login.html">Get started</a> </button>
         </div>
     </section>
+    
   
-    <section class=" flex flex-col items-center justify-centersection4 
-    mt-[2.6rem] mr-[5rem] ml-[5rem] mb-[4.4rem] pl-[16.6rem] pr-[16.6rem]">
-        <h6 class="text-center font-bold text-[1.4rem] mb-[3.2rem]">Do You Have A Case To Report Or Knows Someone
+    <section class=" flex flex-col  md:items-center text-left md:justify-center section4 
+    mt-[2.6rem]  md:mb-[4.4rem] md:pl-[16.6rem] md:pr-[16.6rem]">
+        <h6 class="md:text-center text-left font-bold md:text-[1.4rem] text-[0.7rem] mb-[3.2rem]">Do You Have A Case To Report Or Knows Someone
             That Needs Help In Reporting An SGBV Case</h6>
             <p class="text-center">We're standing up for sexual and gender based violence survivors
                 to end the most pervasive human rights violation on the planet —
