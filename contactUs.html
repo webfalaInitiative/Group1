@@ -35,8 +35,56 @@
             </ul>
             
         </nav>
-        <section class="section1 flex-col md:flex  md:gap-[6.3rem] gap-[3.5rem] mt-[2rem]">
-            <div class="mb-[3.1rem] md:mt-[5.2rem] mt-[2rem] md:w-[37.4rem] w-[33rem] md:h-[37.8rem] h-[25rem] ">
+        <!-- 1st section for mobile -->
+        <section class="md:hidden section1 flex-col   gap-[3.5rem] mt-[2rem]">
+            <div class="mb-[3.1rem]  mt-[2rem]  w-[100%]  h-[25rem] ">
+                <h1 class="font-bold text-[1.3rem]">Thank You For Being Here</h1>
+                <p class="mt-[3.1rem] text-justify">Thank you for reaching out to Safeher Refuge. Your voice matters to us, and we're here to listen, support, 
+                    and assist you in any way we can. Please feel free to get in touch using the following contact information:</p>
+                    <div class="w-[100%] h-[18.1rem] mt-[3.1rem]">
+                            <h1 class="font-bold text-[1.3rem] mb-[2.1rem]">Enqurires? Contact Us At </h1>
+                        <div class="flex gap-[0.8rem]  items-center mb-[2.1rem]">
+                            <div class="w-[1rem] h-[1rem]">
+                                <img src="images/ic_round-email.png" alt="">
+                            </div>
+                            
+                            <p class=""><a href="mailto:safeherrefuge@gmail.com" >safeherrefuge@gmail.com</a></p>
+                        </div>
+                        <div class="flex gap-[0.8rem]  items-center mb-[2.1rem]">
+                            <div class="w-[1rem] h-[1rem]">
+                                <img src="images/carbon_phone-filled.png" alt="">
+                            </div>
+                            <p>+234-810-000-1031</p>
+                        </div>
+                        <div class="flex gap-[0.8rem]  items-center md:mb-[2.1rem] mb-[0.6rem]">
+                            <div class="w-[1rem] h-[1rem]">
+                                <img src="images/zondicons_location.png" alt="">
+                            </div>
+                            <p>City of refuge, Station road, G.R.A, Ilorin. kwara State. Nigeria</p>
+                        </div>
+                            <p class="hidden md:block md:mt-[3.1rem] mt-[0.5rem] text-justify">We value your feedback and strive to continuously improve our services. If you have
+                             any comments, suggestions, or feedback, please don't hesitate to share them with us 
+                             using the feedback form.</p>
+                    </div>
+                </div>
+            <div class="w-[100%] h-[45.9rem] bg-[#f5f3f3] px-[1.5rem] py-[1.5rem]">
+                
+                <form action="" class="flex flex-col gap-[1.4rem]">
+                    <h1 class="mt-[1.3rem] font-bold text-[1.3rem]">Send Us Message</h1>
+                    <input type="text" placeholder="Enter your Name Here:" class="w-[30.7rem] h-[3rem] pl-[1rem] rounded-[.3rem]">
+                    <Label class="font-bold">Your Message:</Label><textarea placeholder="Enter your message here" id="" cols="30" rows="10" 
+                    class="rounded-[.3rem] pl-[1rem] pt-[2rem]"></textarea>
+                    <div class="flex flex-col justify-center items-center mt-[3rem]">
+                        <button class="bg-[#FBBC04] justify-center items-center w-[10.2rem] h-[2.5rem] mb-[2.1rem]
+                         text-white rounded-[0.4rem]">Submit</button>
+                    </div>
+                    
+                </form>
+            </div>
+        </section >
+        <!-- end of mobile -->
+        <section class="hidden section1  md:flex  gap-[6.3rem]  mt-[2rem]">
+            <div class="mb-[3.1rem] mt-[5.2rem]  w-[37.4rem]  h-[37.8rem] ">
                 <h1 class="font-bold text-[1.3rem]">Thank You For Being Here</h1>
                 <p class="mt-[3.1rem] text-justify">Thank you for reaching out to Safeher Refuge. Your voice matters to us, and we're here to listen, support, 
                     and assist you in any way we can. Please feel free to get in touch using the following contact information:</p>
@@ -66,11 +114,11 @@
                              using the feedback form.</p>
                     </div>
                 </div>
-            <div class="w-[34.7rem] h-[45.9rem] bg-[#f5f3f3] px-[1.5rem] py-[1.5rem]">
+            <div class="w-[20.7rem] h-[45.9rem] bg-[#f5f3f3] px-[1.5rem] py-[1.5rem]">
                 
                 <form action="" class="flex flex-col gap-[1.4rem]">
                     <h1 class="mt-[1.3rem] font-bold text-[1.3rem]">Send Us Message</h1>
-                    <input type="text" placeholder="Enter your Name Here:" class="w-[30.7rem] h-[3rem] pl-[1rem] rounded-[.3rem]">
+                    <input type="text" placeholder="Enter your Name Here:" class="w-[15.7rem] h-[3rem] pl-[1rem] rounded-[.3rem]">
                     <Label class="font-bold">Your Message:</Label><textarea placeholder="Enter your message here" id="" cols="30" rows="10" 
                     class="rounded-[.3rem] pl-[1rem] pt-[2rem]"></textarea>
                     <div class="flex flex-col justify-center items-center mt-[3rem]">
@@ -81,7 +129,7 @@
                 </form>
             </div>
         </section >
-        <section class="md:hidden  section2 flex  flex-col gap-[4.5rem] mt-[1rem]">
+        <section class="md:hidden  section2  flex-col gap-[4.5rem] mt-[1rem]">
             
             <div class="w-[32.2rem] h-[27.9rem]">
                 <h1 class="font-bold text-[1.3rem] mb-[2.1rem]">Support Services</h1>
@@ -101,7 +149,7 @@
             </div> -->
             
         </section>
-        <section class="hidden  section2 md:flex  justify-between mt-[3rem]">
+        <section class="hidden  section2 md:flex  justify-between mt-[3rem] mb-[3rem]">
             <div class="w-[32.2rem] h-[10.9rem]">
                 <h1 class="font-bold text-[1.3rem] mb-[2.1rem]">Support Services</h1>
                 <p class="mb-[2.1rem]">Are you in need of immediate support service or 
@@ -195,7 +243,7 @@
                 <div class="w-[10rem] h-[2.5rem] ">
                     <img src="images/Frame 189.png" alt="" >
                 </div>
-                <div class="flex gap-[2.5rem] mt-[2.3rem]">
+                <div class="flex gap-[2rem] mt-[2.3rem]">
                     <a href="https://www.facebook.com/webfalainitiative?mibextid-LQQJ4d" target="_blank"><img src="images/jam_facebook.png" alt="" class="w-[1rem] h-[1rem]"></a>
                     <a href="#"><img src="images/bi_twitter.png" alt="" target="_blank" class="w-[1rem] h-[1rem]"></a>
                     <a href="https://www.linkedin.com/company/webfala-digital-skills-for-all-initiative/"><img src="images/ri_linkedin-fill(1).png" alt="" target="_blank" class="w-[1rem] h-[1rem]"></a>
