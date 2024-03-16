@@ -9,16 +9,44 @@
 </head>
 <body>
     <div class="w-[100%] h-[100%] ">
-        <div class=" flex flex-col gap-[3rem] w-[50%] h-[50rem] bg-white shadow mx-auto my-[3rem] px-[2rem] 
-        py-[3rem] shadow-[#fbbc04] border-2 border-[#fbbc04]">
-        <div class="flex flex-col justify-center items-center gap-[.5rem]">
-            <img src="images/Frame_135.svg" alt="" class="w-[15rem] h-[7rem]">
-            <h1 class="font-bold text-[1.5rem]">Register New Account</h1>
+        <nav class=" bg-white p-3 shadow md:flex md:justify-between md:items-center">
+            <div class="flex justify-between items-center">
+                <div class="w-[8rem]">
+                    <img src="images/Frame_135.svg" alt="" class="w-[100%] h-[100%]">
+                </div>
+                <div class="w-[2rem] cursor-pointer mx-2 md:hidden block ">
+                    
+                    <span class="cursor-pointer md:hidden block" name="menu" class="text-[2rem]">
+                        <ion-icon name="menu" onclick="menu(this)"></ion-icon>
+                    </span>
+                  
+                </div>
+            </div>
+            
+            <ul class="bg-white  md:flex md:items-center text-black  md:z-auto md:static absolute w-[100%] left-0 
+            md:w-auto py-0   md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all-ease-in duration-500" >
+                <li class=" text-[1rem]  font-bold mx-4 my-6 md:my-0"><a href="index.html">Home</a></li>
+                <li class="mx-4 my-6 md:my-0"><a href="about.html">About Us</a></li>
+                <li class="mx-4 my-6 md:my-0"><a href="resources.html">Resources</a></li>
+                <li class="mx-4 my-6 md:my-0"><a href="contactUs.html">Contact Us</a></li>
+                <li class="ml-4 my-6 md:my-0 bg-[#FBBC04] text-white rounded-[0.2rem] px-[1rem] py-[.4rem] "><a href="community.html">Join Community</a></li>
+            </ul>
+            
+        </nav>
+        <div class=" flex flex-col md:gap-[3rem] gap-[1.5rem] md:w-[50%] w-[100%] md:h-[50rem] h-auto bg-white shadow md:mx-auto  my-[3rem] px-[2rem] 
+        py-[1.5rem] shadow-[#fbbc04] border-2 border-[#fbbc04]">
+        <div class="flex flex-col justify-center items-center gap-[.2rem]">
+            <img src="images/Frame_135.svg" alt="" class="md:w-[15rem] w-[9rem] h-[7rem]">
+            <h1 class="font-bold md:text-[1.5rem] text-[1rem]">Register New Account</h1>
            
         </div>
         <div >
             <form action="" class="flex flex-col justify-center items-center gap-[3rem]">
-                <div class="flex justify-between gap-[9rem]">
+                <input type="text" placeholder="First Name" name="" id="" class="md:hidden w-[100%] h-[3rem] border-2 border-[#fbbc04] 
+                rounded-[0.5rem]  shadow-md shadow-[#fbbc04] py-[1.5rem] p-7">
+                <input placeholder="Last Name" type="text" name="" id="" class="md:hidden w-[100%] h-[3rem] border-2 border-[#fbbc04]
+                rounded-[0.5rem]   shadow-[#fbbc04] py-[1.5rem] p-7">
+                <div class="hidden md:flex justify-between gap-[9rem]">
                     <div>
                         <input type="text" placeholder="First Name" name="" id="" class="w-[100%] h-[3rem] border-2 border-[#fbbc04] 
                         rounded-[0.5rem]  shadow-md shadow-[#fbbc04] py-[1.5rem] p-7">
