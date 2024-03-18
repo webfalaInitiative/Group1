@@ -17,6 +17,12 @@
     }
     
 }
+@media only screen and (max-width:368px){
+    .about-img{
+        height: 20rem;
+        margin-top: 2rem;
+    }
+}
 @media only screen and (max-width:768px){
     :root{
         font-size:10px;
