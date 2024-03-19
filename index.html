@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./output.css">
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <title>SafeherRefuge</title>
 </head>
 <body >
     <!-- Beginning of Navigation bar -->
@@ -27,7 +27,7 @@
         <ul class="bg-white md:flex md:items-center text-black z-[10] md:z-auto md:static absolute w-full left-0 
         md:w-auto py-0  px-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all-ease-in duration-500" >
             <li class="bg-blue  text-[1rem]  font-bold mx-4 my-6 md:my-0"><a href="index.html">Home</a></li>
-            <li class="mx-4 my-6 md:my-0"><a href="about.html">About Us</a></li>
+            <li class="mx-4 my-6 md:my-0"><a href="aboutUs.html">About Us</a></li>
             <li class="mx-4 my-6 md:my-0"><a href="resources.html">Resources</a></li>
             <li class="mx-4 my-6 md:my-0"><a href="contactUs.html">Contact Us</a></li>
             <li class="mx-4 my-6 md:my-0 bg-[#FBBC04] text-white rounded-[0.2rem] px-[1rem] py-[.4rem] hover:bg-cyan-500 rounded"><a href="community.html">Join Community</a></li>
@@ -35,10 +35,103 @@
         
     </nav>
     <!-- End of Navigation bar -->
+    <!-- first section for desktop -->
     <section class="section1 ">
-        <div class="flex   md:justify-between gap-[1rem]  md:mt-[1.5rem] mt-[2.5rem]">
+        <div class="hidden md:flex justify-between mt-[3rem]">
+            <div class="w-[35.5rem] h-[20.6rem] mt-[6.6rem]  ">
+                <h1 class="font-bold text-[3rem]   leading-[3.5rem] ">Empowering Survivors <br>And Reviving Hope</h1>
+                <p class="hidden md:block md:mt-[2.2rem] text-justify">We create safe space for sexual and gender based violence survivors. Join our community as we journey
+                     towards healing and reclaiming strength</p>
+                     <button class="bg-[#FBBC04]  text-white rounded-[0.2rem] 
+                     md:mt-[2.2rem] md:w-[9.7rem] w-[6rem] md:h-[2.7rem] h-[2rem]"><a href="signUp.html">Get started</a> </button>
+            </div>
+            <div class="md:w-[35.3rem] w-[15.5rem]  md:h-[20.4rem] h-[4.5rem]">
+                <img src="images/firstImage.png" alt="" class="rounded-[.5rem]">
+            </div>
+        </div>
+        
+        <!-- mobile p tag -->
+        <div class="flex flex-col  md:hidden"> 
+            <div>
+            <p class=" mt-[4.5rem] text-justify">We create safe space for sexual and gender based violence survivors. Join our community as we journey
+                towards healing and reclaiming strength</p>
+                
+            </div>
+            <div class="flex justify-end">
+                <button class=" bg-[#FBBC04] text-white rounded-[0.2rem] mt-[2.2rem] w-[9.7rem] 
+                 md:h-[2.7rem] h-[2rem]"><a href="signUp.html">Get started</a> </button>
+            </div>
+        </div>
+        <!-- about us for mobile -->
+        <div class="md:hidden flex flex-col gap-[1rem] mt-[0.7rem]">
+            <div>
+                <h1 class="font-bold text-[1rem]" >About Us</h1>
+            </div>
+            <div>
+                <p class="text-justify">At SafeHer Refuge, we are dedicated to providing a safe and supportive space for survivors of sexual and gender based violence (SGBV).
+                </p>
+                    <p class="text-justify">To learn more about our Vision and Mission, click below.</p>
+            </div>
+            <div>
+                <div class="flex justify-end">
+                    <button class=" bg-[#FBBC04] text-white rounded-[0.2rem] mt-[1rem] 
+                    md:w-[9.7rem] w-[8rem] md:h-[2.7rem] h-[2rem]"><a href="about.html">Read More</a> </button>
+                </div>
+            </div>
+        </div>
+        <!-- Resources and tools for mobile -->
+        <div class="md:hidden flex flex-col gap-[1rem] mt-[0.7rem] bg-[#F5F5F5]">
+            <div>
+                <h1 class="font-bold text-[1.2rem] text-center mt-[0.5rem]" >Resources and Tools</h1>
+            </div>
+            <div>
+                <h1 class="font-bold text-[.9rem] text-center" >Are You Interested in Learning A New Skill? Seeking Legal Aid And More? .</h1>
+                    
+            </div>
+            <div>
+                <div class="flex justify-end">
+                    <button class=" bg-[#FBBC04] text-white rounded-[0.2rem] 
+                    mt-[0.9rem] md:w-[9.7rem] w-[8rem] md:h-[2.7rem] h-[2rem]"><a href="resources.html">Explore More</a> </button>
+                </div>
+            </div>
+        </div>
+        <!-- community page -->
+        <div class="md:hidden flex flex-col gap-[0.5rem] mt-[0.7rem] bg-[#F5F5F5]">
+            <div>
+                <img src="images/Frame 216.png" alt="">
+            </div>
+            <div>
+                <p class="text-justify">Together, we can build a world where survivors are supported, respected, and empowered to thrive.</p>
+                    
+            </div>
+            <div>
+                <div class="flex justify-end">
+                    <button class=" bg-[#FBBC04] text-white rounded-[0.2rem]  
+                    md:w-[9.7rem] w-[8.5rem] md:h-[2.7rem] h-[2rem]"><a href="community.html">Join A community</a> </button>
+                </div>
+            </div>
+        </div>
+        <div class="md:hidden flex flex-col gap-[1rem] mt-[0.7rem] bg-[#F5F5F5]">
+            <div>
+                <h1 class="font-bold text-center mt-[0.5rem]">Want to Report a Case?</h1>
+            </div>
+            <div class="flex flex-col gap-[0.5rem] justify-center text-center items-center">
+                <p>We're standing up for Sexual and Gender-Based Violence survivors.</p>
+                    <p>To report a case, use our safe and  dedicated 24/7 hotline or chat with our caregivers.</p>
+                    
+            </div>
+            <div>
+                <div class="flex justify-end mb-[2rem]">
+                    <button class=" bg-[#FBBC04] text-white rounded-[0.4rem] mt-[2.2rem] md:w-[9.7rem] w-[8rem] md:h-[2.7rem] h-[2rem]"><a href="contactUs.html">Send a Message</a> </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of first section for desktop -->
+    <section class="section1 ">
+        <div class="md:hidden flex   md:justify-between gap-[1rem]  md:mt-[1.5rem] mt-[2.5rem]">
             <div class="w-[30rem] h-[7rem] md:w-[35.5rem] md:h-[20.6rem] md:mt-[6.6rem]  ">
-                <h1 class="font-bold md:text-[1.7rem] text-[1rem]  md:leading-[2rem] leading-[2rem]">Empowering Survivors <br>And Reviving Hope</h1>
+                <h1 class="font-bold md:text-[2rem] text-[1rem]  md:leading-[2.5rem] leading-[2rem]">Empowering Survivors <br>And Reviving Hope</h1>
                 <p class="hidden md:block md:mt-[2.2rem] text-justify">We create safe space for sexual and gender based violence survivors. Join our community as we journey
                      towards healing and reclaiming strength</p>
                      <button class="bg-[#FBBC04]  text-white rounded-[0.2rem] 
@@ -125,16 +218,17 @@
             </div>
         </div>
     </section>
+    <!-- first section for mobile -->
     <!-- about us section for desktop -->
     <section class="hidden md:block mt-[3rem] ">
         <!-- <div > -->
             <div class="md:flex justify-between" >
                 <div class="flex flex-col gap-[2rem] "> 
-                    <div class="flex flex-col gap-[2rem] w-[457px] h-[156px]">
-                        <div>
+                    <div class="flex flex-col gap-[1rem] w-[457px] h-[156px]">
+                        <div class="text-center ">
 
                     <!-- </div>  -->
-                            <h1 class="font-bold text-[1.5rem]">About Us</h1>
+                            <h1 class="font-bold text-[2rem] ">About Us</h1>
                         </div>
                         <div>
                             <h1 class="font-bold text-[1rem]">Know More About Us</h1>
@@ -178,8 +272,8 @@
                     </div>
                 </div>
             
-                <div class="w-[457px] h-[156px]">
-                    <img src="images/Rectangle 11.png" alt="">
+                <div class="w-[38.6rem] h-[25rem]">
+                    <img src="images/Rectangle_11-QQHJi9Glf-transformed.png" alt="" class="w-[100%] h-[100%]">
                 </div>
         </div>
     </section>
