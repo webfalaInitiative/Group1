@@ -9,6 +9,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
+<div  class="mx-[2rem]">
     <nav class="bg-white p-3 shadow md:flex md:justify-between md:items-center">
         <div class="flex justify-between items-center">
             <div class="w-[8rem]">
@@ -33,12 +34,13 @@
         </ul>
         
     </nav>
-    <section class="flex mx-[3rem] gap-[4rem] mt-[7rem]">
+<!-- first section for desktop -->
+    <section class="hidden section1 md:flex gap-[3rem] mt-[3rem]">
         
-        <div>
+        <div >
             <div>
                 <div class="flex items-center gap-3">
-                    <div class="rounded-full bg-[#FBBC04] h-[24px] w-[24px] flex justify-center items-center">
+                    <div class="rounded-full bg-[#FBBC04] h-auto w-[24px] flex justify-center items-center">
                         <span class="material-symbols-outlined text-white">
                             check
                         </span>
@@ -77,15 +79,57 @@
             </div>
         </div>
         <!--for the image  -->
-        <div class="mx-[3rem]">
-            <img src="images/image 1.png" class="w-[570px] rounded-[10px] h-[504px] ">
+        <div class="w-[570px] rounded-[10px] h-[504px]">
+            <img src="images/image 1.png" class="w-[100%] rounded-[10px] h-auto ">
         </div>
 
     </section>
 
-    <!-- SECTION 2 -->
+    <!-- first section for mobile -->
 
-    <section class="flex mx-[3rem] gap-[4rem]  mt-[7rem]">
+    <section class="md:hidden section1 flex flex-col gap-[1rem] mt-[3rem]">
+        
+        <div class="w-[100%] h-auto">
+            <div class="w-[100%] h-auto">
+                <div class="flex flex-col gap-[2rem]">
+                    <div>
+                        <div class="">
+                    
+                            <div>
+                                <h1 class="text-[18px] font-bold ">
+                                    Welcome To Our Community
+                                </h1>
+                            </div>
+                            
+                        </div>
+                        <div>
+                            <p class="text-justify text-[14px]  pt-[1rem]">
+                                Welcome to the SafeHer Refuge community, where survivors of Sexual 
+                                and Gender-Based Violence (SGBV) find strength, support, and solidarity. 
+                                Joining our community means becoming part of a network of survivors, allies, and advocates dedicated to creating a safer, more compassionate world for all.
+            
+                            </p>
+                        </div>
+                    </div>
+                    <div class="w-[100%] h-auto">
+                        <img src="images/image 1.png" class="w-[100%] rounded-[10px] h-[100%] ">
+                    </div>
+            </div>
+            
+            </div>
+            <!-- second div... -->
+            
+        </div>
+        <!--for the image  -->
+        <!-- <div class="mx-[3rem]">
+            <img src="images/image 1.png" class="w-[570px] rounded-[10px] h-[504px] ">
+        </div> -->
+
+    </section>
+
+    <!-- SECTION 2 desktop -->
+
+    <section class="hidden md:flex mx-[3rem] gap-[4rem]  mt-[7rem]">
         <div>
             <div>
                 <div class="flex items-center gap-3">
@@ -122,9 +166,41 @@
 
     </section>
 
-    <!-- Section 3 -->
+    <!-- SECTION 2 MOBILE -->
+    <section class="md:hidden mt-[2rem] w-[100%] h-auto mb-[2rem]">
+        <div class="flex flex-col gap-[2rem]">
+            <div>
+                <div class="flex flex-col gap-[2rem]">
+                    <div class="">
+                        <h1 class="text-[18px] font-bold">
+                            Want To Join Our Community
+                        </h1>
+                    </div>
+                    
+                    <div class=" mx-[0.8rem] text-[14px] w-[100%] h-auto">
+                        <p class="text-justify">Volunteer to make a difference in the lives of survivors by
+                             volunteering your 
+                            time and skills. Whether you're interested in facilitating 
+                            support groups, providing administrative assistance, or helping with outreach efforts, 
+                            there are many ways to contribute to our mission..
+                        </p>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <div class=" w-[100%] h-auto">
+                <img src="images/image 2.png" class=" w-[100%] h-auto rounded-[10px] ">
+            </div>
+        </div>
+        <!--for the image  -->
+        
 
-    <section class="flex mx-[2.5rem] gap-[5rem] mt-[7rem] bg-[#f5f5f5] py-[3rem]">
+    </section>
+
+    <!-- Section 3 for desktop-->
+
+    <section class="hidden md:flex mx-[2.5rem] gap-[5rem] mt-[7rem] bg-[#f5f5f5] py-[3rem]">
         <div>
             <div class="px-[1rem]">
                 <div class="flex items-center gap-2">
@@ -213,6 +289,149 @@
         </form>     
         </div>
     </section>
+<!-- Third section for mobile -->
+    <section class="md:hidden flex  flex-col  gap-[2rem] mt-[rem] bg-[#f5f5f5] py-[2rem] px-[0.5rem]">
+        <div>
+            <div class="px-[1rem]">
+                <div class="flex flex-col  gap-[1rem] mb-[2rem]">
+                    
+                    <div>
+                        <h1 class="text-[16px] font-bold">
+                            Why Join Our Community?
+                        </h1>
+                    </div>
+                    <div>
+                        <ul class="list-disc">
+                            <li>
+                                <p class="w-[100%] text-[14px] text-justify">
+                                    We provide access to a supportive community of survivors 
+                                    who understands and validates your experiences, providing a safe space for healing and connection</p>
+                            </li>
+                            <li>
+                                <p class="w-[100%] text-[14px] text-justify">
+                                    You will gain access to a wide range of support services, educational resources, and empowerment tools 
+                                    to help you on 
+                                    your journey towards recovery and resilience.
+                                </p>
+                            </li>
+                            <li>
+                                <p class="w-[100%] text-[14px] text-justify">
+                                    Find strength and empowerment through advocacy, activism, and collective action, 
+                                    as we work together to create positive change and prevent future harm.
+                                </p>
+                            </li>
+                        </ul>
+                        
+                            
+                    </div>
+                    <div>
+                        <p class="text-justify text-[14px]">Together, we can build a world where survivors are supported, 
+                            respected, and empowered to thrive.
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col  gap-[1rem]">
+                    
+                    <div>
+                        <h1 class="text-[16px] font-bold">
+                            Ready To Join Our Community?
+                        </h1>
+                    </div>
+                    <div>
+                        <p class="w-[100%] text-[14px] text-justify">
+                            Join a community and make a difference. Fill the registration form to learn more about 
+                            volunteer 
+                            opportunities, active community  groups and upcoming events.</p>
+                            
+                    </div>
+                    <div>
+                        <p class="text-justify text-[14px]">Together, we can build a world where survivors are supported, 
+                            respected, and empowered to thrive.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
+                         
+        </div>
+
+        <div class=" w-[100%] h-auto border-2 py-5 px-3 flex flex-col bg-[#f5f5f5] gap-[1rem]">
+            <!-- FORM... -->
+        <h1 class="text-[24px] ml-5 font-bold">Registration Form</h1>
+        <form class="px-5">
+            <div class="mt-[1.5rem]">
+                <label for="name" class="text-[1.25rem] "
+                  >Your Name</label 
+            
+                ><br />
+                <input
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="Your Name Here"
+                  class="w-[100%]  rounded-[8px] h-[40px] border-2 border-[#FBBC04] outline-none text-[16px] px-3 mt-[1rem]"
+                /><br />
+                <span id="error1"></span>
+            </div>
+
+            <div class="mt-[1.5rem]">
+                <label for="email" class="text-[1.25rem] "
+                  >Your Email</label
+                ><br />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email Here"
+                  class="w-[100%] rounded-[8px] h-[40px] border-2 border-[#FBBC04] outline-none text-[16px] px-3 mt-[1rem]"
+                /><br />
+                <span id="error1"></span>
+            </div>
+
+            <div class="">
+                <label for="num" class="text-[1.25rem] "
+                  >Phone Number</label
+                ><br />
+                <input
+                  type="number"
+                  name="num"
+                  id="num"
+                  placeholder="Your Phone Number Here"
+                  class="w-[100%] rounded-[8px] h-[40px] border-2 border-[#FBBC04] outline-none text-[16px] 
+                  px-3 mt-[1rem]"
+                /><br />
+                <span id="error1"></span>
+            </div>
+
+            <div class="mt-[1.5rem]">
+                <label for="comm" class="text-[1.25rem] "
+                  >Choose A Community</label
+                ><br />
+                
+                <input
+                  type="text"
+                  name="comm"
+                  id="comm"
+                  placeholder="Choose a community Here"
+                  class="w-[100%] rounded-[8px] h-[40px] border-2 border-[#FBBC04] outline-none text-[16px] px-3 mt-[1rem]"
+                /><br />
+                <span id="error1"></span>
+            </div>
+          
+          
+          <div class="flex justify-center items-center mt-[1.5rem]">
+            <button
+            type="submit"
+            class="text-[1.25rem] h-[3rem] rounded-[8px] w-[10rem]
+            bg-[#FBBC04] text-white"
+          >
+            <a href="#">Submit</a>
+          </button>
+          </div>
+        </form>     
+        </div>
+    </section>
+</div>
     <footer class="hidden md:block bg-black w-[100%] h-[100%] pt-[4rem] pl-[1.9rem] pr-[1.9rem] pb-[8.5rem]">
         <div class="flex  flex-col ">
             <div class="flex justify-between">
